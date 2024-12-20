@@ -1,6 +1,8 @@
 # python library management system
 Python DRF library management system REST API app
 
+Please check Swagger documentation PDF checked in git repository.
+
 ===============================>Instructions to Start App<============================
 
 
@@ -58,6 +60,8 @@ The refresh token is valid for 1 day.
 4.Use the access token for authenticated API requests by adding it to the Authorization header:
     Key:Authorization: 
     value:Bearer "put token here"
+    
 5."http://127.0.0.1:8000/swagger/" hit this url to use all APIs
+
 6.add authorization token Bearer <token>
    
