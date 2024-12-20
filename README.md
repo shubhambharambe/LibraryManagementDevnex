@@ -1,10 +1,7 @@
 # python library management system
 Python DRF library management system REST API app
 
-
-======================================>Add readme<===================================================
-
-===============================>add instructions of to start application<============================
+===============================>Instructions to Start App<============================
 
 
 
@@ -15,19 +12,25 @@ pip install django-celery-results django-celery-beat
 
 
 1.open (Devenex-library) folder
+
 2.open CMD in this folder 
+
 3.write command cd (library)
+
 4.after that write command(python manage.py createsuperuser)
 
 5.after that you need to add username,email and password for check Django administration(Database)
+
 6.after that  command( python manage.py runserver)
 
 7.you got this type of link http://127.0.0.1:8000/
+
 8.Open your browser and navigate to:
 
 Application: http://127.0.0.1:8000/
 Admin Panel: http://127.0.0.1:8000/admin/
 Log in to the admin panel using the credentials of the superuser created earlier to view or manage the database tables.
+
 9.open new terminal and hit this command <celery -A api.celery worker --loglevel=info > to start celery scheduler
 
 
